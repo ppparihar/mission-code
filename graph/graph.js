@@ -34,7 +34,7 @@ function Graph() {
     while (frontiers.length() !== 0) {
       let currentNode = frontiers.dequeue();
 
-      console.log(currentNode);
+      //console.log(currentNode);
       if (currentNode === destination) return true;
 
       VisitedNodeList[currentNode]=true;
